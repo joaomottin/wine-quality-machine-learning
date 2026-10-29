@@ -1,12 +1,12 @@
-# Wine Quality Classification | Applied Machine Learning
+# Wine Quality Prediction: Classification & Model Interpretation
 
-**FIAP Tech Challenge · Phase 2 · Supervised Learning & Model Evaluation**
+**Applied Machine Learning Study · Python · scikit-learn · Imbalanced Classification**
 
-An end-to-end notebook workflow for predicting high-quality wines from physicochemical measurements: data cleaning, exploratory analysis, stratified splitting, preprocessing, model training, class weighting, evaluation, and interpretation. An executive report and recorded presentation connect the technical work to production quality screening.
+An applied machine learning study with an end-to-end notebook workflow for predicting high-quality wines from physicochemical measurements: data cleaning, exploratory analysis, stratified splitting, preprocessing, model training, class weighting, evaluation, and interpretation. An executive report and recorded presentation connect the technical work to production quality screening.
 
 **Four model configurations, 11 predictors, and five evaluation metrics.** Balanced Logistic Regression detects more high-quality wines; balanced Random Forest delivers more precise positive predictions. The project explains that trade-off through metrics and confusion matrices.
 
-[Executive report](docs/tech-challenge-phase-2-executive-report.pdf) · [Video presentation](https://youtu.be/zjw72T-T930) · [Analysis notebook](notebooks/analise_wine_quality.ipynb) · [Metrics CSV](results/metricas_modelos.csv)
+[Executive report](docs/wine-quality-executive-report.pdf) · [Video presentation](https://youtu.be/zjw72T-T930) · [Analysis notebook](notebooks/analise_wine_quality.ipynb) · [Metrics CSV](results/metricas_modelos.csv)
 
 ![Comparison of model evaluation metrics](results/comparacao_metricas_modelos.png)
 
@@ -146,7 +146,7 @@ Chart labels are in Portuguese.
 
 ## Executive report and presentation
 
-The [15-page executive report](docs/tech-challenge-phase-2-executive-report.pdf) presents the objective, cleaning decisions, EDA, outlier policy, preprocessing, models, results, feature interpretation, and implications for production. The [recorded presentation](https://youtu.be/zjw72T-T930) accompanies the written analysis. Both are in Portuguese.
+The [15-page executive report](docs/wine-quality-executive-report.pdf) presents the objective, cleaning decisions, EDA, outlier policy, preprocessing, models, results, feature interpretation, and implications for production. The [recorded presentation](https://youtu.be/zjw72T-T930) accompanies the written analysis. Both are in Portuguese.
 
 The proposed application is to screen batches, prioritize expert review, and monitor measurements associated with high-quality predictions. An operational system would need validation on new batches and a threshold selected against the real costs of missed selections and false positives.
 
@@ -180,28 +180,28 @@ Execute all cells in order. The notebook locates the dataset from the root or `n
 data/WineQT.csv                      Input data
 notebooks/analise_wine_quality.ipynb  Complete analytical and modeling workflow
 results/                             Exported charts and model metrics
-docs/tech-challenge-phase-2-executive-report.pdf
+docs/wine-quality-executive-report.pdf
 presentation/                        Original reserved presentation directory
 requirements.txt                     Python dependencies
 README.md                            Project narrative and execution guide
 ```
 
-## Project series
+## Related studies
 
-| Phase | Focus | Repository |
+These collaborative studies explore complementary problems in business analytics, machine learning, and data engineering.
+
+| Study | Focus | Repository |
 |---|---|---|
-| 1 | Business analytics and executive recommendations | [Olist seller analysis](https://github.com/joaomottin/TechChallenge-Fase1) |
-| 2 | Supervised learning and imbalanced classification | [Wine quality](https://github.com/joaomottin/TechChallenge-Fase2) |
-| 3 | AWS data engineering, PySpark, and analytical reporting | [State of Data Brasil](https://github.com/joaomottin/TechChallenge-Fase3) |
+| Olist seller performance | Marketplace analytics, customer satisfaction, and executive recommendations | [Explore the study](https://github.com/joaomottin/olist-seller-performance-analysis) |
+| Wine quality prediction | Supervised learning, imbalanced classification, and model interpretation | [Explore the study](https://github.com/joaomottin/wine-quality-machine-learning) |
+| Brazil data market intelligence | AWS architecture, distributed data preparation, and analytical reporting | [Explore the study](https://github.com/joaomottin/brazil-data-market-aws-pipeline) |
 
-## Team
+## Collaborators
 
-Developed collaboratively for FIAP.
+Developed collaboratively as part of the FIAP postgraduate program.
 
-| Contributor | Student ID |
-|---|---|
-| Felipe Macedo da Silva | RM373436 |
-| João Pedro Mezzadri Mottin | RM372545 |
-| Miguel Fernandes Martins de Bastos | RM373815 |
-| Thanael Butewicz | RM373935 |
-| Verônica de Fátima Machado Silva | RM371976 |
+- Felipe Macedo da Silva
+- João Pedro Mezzadri Mottin
+- Miguel Fernandes Martins de Bastos
+- Thanael Butewicz
+- Verônica de Fátima Machado Silva
